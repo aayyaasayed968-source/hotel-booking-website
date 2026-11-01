@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rooms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="title">Available Rooms</h1>
+
+    <div class="room-card">
+        <img src="images/room1.jpg">
+        <div>
+            <h2>Luxury Room</h2>
+            <p>Sea view, king bed, AC</p>
+            <p class="price">1000 EGP / night</p>
+        </div>
+    </div>
+
+    <div class="booking">
+        <h2>Book Now</h2>
+        <input type="number" id="nights" placeholder="Number of nights">
+        <button onclick="calculate()" class="main-btn">Calculate</button>
+        <p id="total"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
